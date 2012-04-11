@@ -1,4 +1,4 @@
-# Backbobejs for Symphony-CMS
+# Backbonejs for Symphony-CMS
 
 ### Abstract 
 This simply adds [Backbone JS][1] to resources your Symphony CMS backend. No
