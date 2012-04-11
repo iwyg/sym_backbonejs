@@ -10,4 +10,4 @@ in your smyphony root directory: `git submodule add git://github.com/iwyg/sym_ba
 
 Go to `System->Extensions`, select `backbobe js` and choose `enable/install`
 
-[1] http://backbonejs.org/
+[1]: http://backbonejs.org/
