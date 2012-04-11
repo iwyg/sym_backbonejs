@@ -1,0 +1,12 @@
+[submodule "assets/requirejs"]
+	path = assets/requirejs
+	url = git://github.com/jrburke/requirejs.git
+[submodule "assets/json2"]
+	path = assets/json2
+	url = git://github.com/douglascrockford/JSON-js.git
+[submodule "assets/backbonejs-amd"]
+	path = assets/backbonejs-amd
+	url = git://github.com/amdjs/backbone.git
+[submodule "assets/underscorejs-amd"]
+	path = assets/underscorejs-amd
+	url = git://github.com/amdjs/underscore.git
