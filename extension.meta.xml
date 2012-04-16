@@ -13,6 +13,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.2" date="2012-04-17" min="2.2.2">
+			- fixed header output error (extra line at the and of the document)
+		</release>
 		<release version="1.0" date="2012-04-11" min="2.2.2">
 			- initial release
 		</release>

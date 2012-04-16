@@ -1,15 +1,19 @@
 <?php 
+/**
+ * @package sym_backbonejs
+ * @author thomas appel <mail@thomas-appel.com>
 
-Class extension_sym_backbonejs extends Extension 
-{
+ * Displays <a href="http://opensource.org/licenses/gpl-3.0.html">GNU Public License</a>
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU Public License
+ */ 
+Class extension_sym_backbonejs extends Extension {
 
-	public function about() 
-	{
+	public function about() {
 		return array(
 			'name' => 'backbone js',
 			'type'	=> 'script',
-			'version' => '1',
-			'release-date' => '2012-02-02',
+			'version' => '1.2',
+			'release-date' => '2012-04-17',
 			'author' => array(
 				'name' => 'Thomas Appel',
 				'email' => 'mail@thomas-appel.com',
@@ -22,8 +26,7 @@ Class extension_sym_backbonejs extends Extension
 		);
 	}
 
-	public function __construct(Array $args) 
-	{
+	public function __construct(Array $args) {
 		parent::__construct($args);
 
 		$reqirepath = EXTENSION . '/requirejs/assets/requirejs/require.js';
@@ -33,5 +36,3 @@ Class extension_sym_backbonejs extends Extension
 		}
 	}
 }
-?>
-
